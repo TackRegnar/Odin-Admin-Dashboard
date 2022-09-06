@@ -34,7 +34,39 @@ body {
   width: 2em;
 }
 
+
+.settings {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+}
+
+.settings * {
+  justify-self: center;
+  align-self: center;
+}
+
+.settings img {
+  width: 2em;
+}
+
+
 .rightside {
   width: 75vw;
   background-color: #282A36;
+}
+
+.header {
+  height: 15%;
+  background-color: #6272A4;
+}
+
+.header_top {
+  display: flex;
+}
+
+.header_bot {
+  display: flex;
+  justify-content: space-evenly;
 }
