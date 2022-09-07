@@ -70,3 +70,16 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.cards div {
+  background-color: grey;
+  border: solid 3px;
+  border-left-color: orange;
+  border-radius: 10px;
+}
