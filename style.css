@@ -100,4 +100,13 @@ body {
   display: flex;  
   flex-direction: column;
   width: 20vw;
+  margin-right: 2vw;
+}
+
+.content_right_top {
+  border: solid black 2px;
+}
+
+.content_right_bot {
+  border: solid black 2px;
 }
