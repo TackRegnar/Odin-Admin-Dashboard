@@ -48,6 +48,46 @@ body {
 
 .header_top {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.header_top div + div {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+
+.header_top div + div h4 {
+  margin: 0 0 0 0;
+  width: 150px;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+
+.search_bar img {
+  width: 2em;
+  height: 2em;
+}
+
+.search_bar input {
+  border-radius: 10px;
+  width: 400px;
+}
+
+.bell_icon {
+  width: 2em;
+}
+
+.user_profile_icon {
+  width: 3em;
+  height: 3em;
 }
 
 .header_bot {
