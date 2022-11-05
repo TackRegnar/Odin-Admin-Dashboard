@@ -42,7 +42,7 @@ body {
 }
 
 .header {
-  height: 15%;
+  height: 12%;
   background-color: #6272A4;
 }
 
@@ -52,6 +52,7 @@ body {
   justify-content: space-between;
   margin-left: 2%;
   margin-right: 2%;
+  padding-top: 1%;
 }
 
 .header_top div + div {
@@ -92,7 +93,34 @@ body {
 
 .header_bot {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.header_name * {
+  margin: 0 0 0 0;
+}
+
+.header_name {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.header_buttons {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_buttons button {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  width: 25%;
 }
 
 .cards {
