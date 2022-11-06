@@ -98,6 +98,12 @@ body {
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2%;
+  padding-bottom: 5%;
+}
+
+.header_bot > div:first-child {
+  display: flex;
+  gap: 2%;
 }
 
 .header_name * {
@@ -129,11 +135,27 @@ body {
   gap: 50px;
 }
 
-.cards div {
+.cards > div {
   background-color: grey;
   border: solid 3px;
   border-left-color: orange;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards > div > div {
+  margin: 1% 2% 1% 5%;
+}
+
+.card_buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card_buttons img {
+  width: 2em;
 }
 
 .content {
