@@ -1,11 +1,12 @@
 body {
   display: flex;
   margin: 0;
+  background-color: #282A36;
 }
 
 .leftside {
   width: 20vw;
-  /* height: 100vh; */
+  height: 100vh;
   background-color: #BD93F9;
 }
 
@@ -39,6 +40,7 @@ body {
 .rightside {
   width: 80vw;
   background-color: #282A36;
+  height: 100vh;
 }
 
 .header {
@@ -177,11 +179,28 @@ body {
   flex-direction: column;
   width: 20vw;
   margin-right: 2vw;
+  gap: 1%;
+}
+
+.content_right > * {
+  margin: 0;
 }
 
 .content_right_top {
   border: solid black 2px;
   border-radius: 10px;
+}
+
+.content_right_top > div * {
+  margin: 0;
+}
+
+.content_right_top h4 {
+  padding-top: 2%;
+}
+
+.content_right_top > div {
+  margin: 2% 2% 2% 2%;
 }
 
 .content_right_bot {
